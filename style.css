@@ -1,4 +1,17 @@
 html {
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
+  font-family: 'Roboto' Helvetica, Aral, sans-serif;
+  /* font-style: italic; */
+  background-image: url(./weedBG.jpg);
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  background-color: #c0c0c0;
+  text-align: center;
 }
