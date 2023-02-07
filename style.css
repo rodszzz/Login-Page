@@ -43,11 +43,12 @@ body {
   /* width: 30%; */
   /* height: 30%; */
   align-self: center;
+  width: 5rem;
 }
 
 .logo-box p {
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .right-box {
