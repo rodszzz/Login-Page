@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
   margin: 0px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -27,11 +27,13 @@ body {
   background-image: url(./weedBG.jpg);
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: space-between;
   height: 100vh;
   /* background-size: 100%; */
 }
 
+/* TODO: make it grow horizontally
+ * so the logo part will get 1/3 of the screen size*/
 .logo-box {
   background: rgb(0, 0, 0, 0.7);
   display: flex;
@@ -51,6 +53,8 @@ body {
   font-size: 4rem;
 }
 
+/* TODO: make it grow to the left 2/3
+ * of the screen using flexbox*/
 .right-box {
   background-color: #c0c0c0;
   /* display: flex; */
@@ -59,4 +63,12 @@ body {
 
 .right-box p {
   font-size: 18px;
+}
+
+.image-credit {
+  color: white;
+}
+
+.image-credit a {
+  color: white;
 }
