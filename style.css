@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto' Helvetica, Aral, sans-serif;
+  font-family: serif;
   /* font-style: italic; */
 }
 
@@ -20,7 +20,7 @@ body {
   margin: 0px;
   display: flex;
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
 }
 
 .logo-div {
@@ -29,16 +29,16 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  flex-grow: 1;
   /* background-size: 100%; */
 }
 
-/* TODO: make it grow horizontally
- * so the logo part will get 1/3 of the screen size*/
 .logo-box {
-  background: rgb(0, 0, 0, 0.7);
+  background: rgb(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  margin-top: 8rem;
 }
 
 .logo-image {
@@ -46,17 +46,24 @@ body {
   /* height: 30%; */
   align-self: center;
   width: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .logo-box p {
   color: white;
   font-size: 4rem;
+  margin: 0;
 }
 
-/* TODO: make it grow to the left 2/3
- * of the screen using flexbox*/
+.logo-text {
+  text-align: center;
+}
+
 .right-box {
-  background-color: #c0c0c0;
+  background-color: #ffffff;
+  flex-grow: 3;
+  justify-content: stretch;
   /* display: flex; */
   /* text-align: center; */
 }
@@ -67,6 +74,8 @@ body {
 
 .image-credit {
   color: white;
+  justify-content: center;
+  text-align: center;
 }
 
 .image-credit a {
