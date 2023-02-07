@@ -4,21 +4,58 @@
 }
 
 body {
-  background-image: url(./weedBG.jpg);
+  /* background-image: url(./weedBG.jpg); */
+  /* height: 100vh; */
+  /* flex-direction: column; */
+
+  margin: 0;
+
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.main-box {
   box-sizing: border-box;
   margin: 0px;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.main-text {
-  background-color: #c0c0c0;
+.logo-div {
+  background-image: url(./weedBG.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 100vh;
+  /* background-size: 100%; */
+}
+
+.logo-box {
+  background: rgb(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-.main-text p {
+.logo-image {
+  /* width: 30%; */
+  /* height: 30%; */
+  align-self: center;
+}
+
+.logo-box p {
+  color: white;
+  font-size: 5rem;
+}
+
+.right-box {
+  background-color: #c0c0c0;
+  /* display: flex; */
+  /* text-align: center; */
+}
+
+.right-box p {
   font-size: 18px;
 }
