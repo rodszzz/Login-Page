@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Norse;
+  src: url(Norse-Bold.otf);
+}
+
 * {
-  font-family: serif;
+  font-family: Roboto;
   /* font-style: italic; */
 }
 
@@ -24,12 +29,15 @@ body {
 }
 
 .logo-div {
-  background-image: url(./weedBG.jpg);
+  /* background-image: url(./weedBG.jpg); */
+  background-image: url(./greenLeaves.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
   flex-grow: 1;
+  width: 40vw;
   /* background-size: 100%; */
 }
 
@@ -52,24 +60,31 @@ body {
 
 .logo-box p {
   color: white;
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 0;
 }
 
 .logo-text {
+  font-family: Norse;
   text-align: center;
 }
 
 .right-box {
-  background-color: #ffffff;
-  flex-grow: 3;
+  background-color: #f9fafb;
+  width: 60vw;
+  /* flex-grow: 2; */
   justify-content: stretch;
   /* display: flex; */
   /* text-align: center; */
 }
 
 .right-box p {
-  font-size: 18px;
+  font-size: 1.3rem;
+}
+
+.top-boilerplate {
+  /* TODO: remove margin of the 2nd p */
+  font-weight: 400;
 }
 
 .image-credit {
