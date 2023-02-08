@@ -87,6 +87,14 @@ body {
   font-weight: 400;
 }
 
+.boilerplate-first {
+  margin-bottom: 0;
+}
+
+.boilerplate-second {
+  margin-top: 0;
+}
+
 .image-credit {
   color: white;
   justify-content: center;
@@ -95,4 +103,8 @@ body {
 
 .image-credit a {
   color: white;
+}
+
+.form-secion {
+  background: #ffffff;
 }
