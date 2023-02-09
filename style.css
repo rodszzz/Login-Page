@@ -84,7 +84,11 @@ button {
   margin-left: 40px;
 }
 
-.right-box p {
+/* .right-box p { */
+/*   font-size: 1.3rem; */
+/* } */
+
+.main-text {
   font-size: 1.3rem;
 }
 
@@ -115,6 +119,8 @@ button {
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 button {
@@ -142,4 +148,54 @@ label {
 a {
   text-decoration: none;
   color: #596d48;
+}
+
+.form-section-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding-left: 20px; */
+  padding-right: 20px;
+}
+
+label {
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  background-color: #f9fafb;
+}
+
+span {
+  margin-left: 40px;
+  font-size: 0.7rem;
+  color: red;
+}
+
+input {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #e5e7eb;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  outline: none;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border: 1px solid #1d4ed8;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.account {
+  font-size: 1rem;
 }

@@ -35,44 +35,60 @@
     </div>
 
     <div class="right-box">
-      <p class="top-boilerplate boilerplate-first">
+      <p class="top-boilerplate boilerplate-first main-text">
         This is not a real online service! You know you need something like
         this in your life to help you realize your deepest dreams.
       </p>
 
-      <p class="top-boilerplate boilerplate-second">
+      <p class="top-boilerplate boilerplate-second main-text">
         Sign up <em>now</em> to get started.
       </p>
 
-      <p class="top-boilerplate">You <em>know</em> you want to.</p>
+      <p class="top-boilerplate main-text">You <em>know</em> you want to.</p>
 
       <form action="#" method="get">
         <div class="form-section">
-          <p>Let's do this!</p>
+          <p class="main-text">Let's do this!</p>
 
-          <div><label for="first_name">FIRST NAME</label></div>
-          <input type="text" id="first_name" name="first_name" required />
+          <div class="form-section-right">
+            <div class="form-div">
+              <label for="first_name">FIRST NAME</label> <br>
+              <input type="text" id="first_name" name="first_name" required />
+            </div>
 
-          <div><label for="last_name">LAST NAME</label></div>
-          <input type="text" id="last_name" name="last_name" required />
+            <div class="form-div">
+              <label for="last_name">LAST NAME</label> <br>
+              <input type="text" id="last_name" name="last_name" required />
+            </div>
 
-          <div><label for="email">EMAIL</label></div>
-          <input type="email" id="email" name="email" required />
+            <div class="form-div">
+              <label for="email">EMAIL</label> <br>
+              <input type="email" id="email" name="email" required />
+            </div>
 
-          <div><label for="phone">PHONE NUMBER</label></div>
-          <input type="tel" id="phone" name="phone" required />
+            <div class="form-div">
+              <label for="phone">PHONE NUMBER</label> <br>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
 
-          <div><label for="password">PASSWORD</label></div>
-          <input type="password" id="password" name="password" minlength="8" required />
+            <div class="form-div">
+              <label for="password">PASSWORD</label> <br>
+              <input class="error" type="password" id="password" name="password" minlength="8" required /> <br>
+              <span>* Passwords do not match</span>
+            </div>
 
-          <div><label for="password_confirm">CONFIRM PASSWORD</label></div>
-          <input type="password" id="password_confirm" name="password_confirm" minlength="8" required />
+            <div class="form-div">
+              <label for="password_confirm">CONFIRM PASSWORD</label> <br>
+              <input class="error" type="password" id="password_confirm" name="password_confirm" minlength="8"
+                required />
+            </div>
 
+          </div>
         </div>
         <div><button type="submit">Create Account</button></div>
       </form>
 
-      <p>Already have an account? <a href="#">Log in</a></p>
+      <p class="account">Already have an account? <a class="account" href="#">Log in</a></p>
     </div>
 </body>
 
